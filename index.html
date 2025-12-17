@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 02</title>
+    <title>Web Form</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
         }
         
         table {
@@ -26,6 +28,7 @@
     
         h3 {
             text-align: center;
+            margin-top: 20px;
         }
         
         .submit-cell {
@@ -55,11 +58,14 @@
     </style>
 </head>
 <body>
-    
-    <h3 style="text-align: center;">แบบสอบถาม</h3>
 
     <form action="#" method="post">
         <table align="center">
+            <tr>
+                <td colspan="2">
+                    <h3 style="text-align: center;">แบบสอบถาม</h3>
+                </td>
+            </tr>
             <tr>
                 <td colspan="2">
                     <b>ข้อมูลผู้ตอบแบบสอบถาม</b>
@@ -110,7 +116,7 @@
 
             <tr>
                 <td colspan="2">
-                    <b>แม่สีที่ชื่นชอบ</b><br>
+                    <br><b>แม่สีที่ชื่นชอบ</b><br>
                     <label><input type="checkbox" name="color[]"> สีแดง</label>
                     <label><input type="checkbox" name="color[]"> สีเขียว</label>
                     <label><input type="checkbox" name="color[]"> สีน้ำเงิน</label>
@@ -119,7 +125,7 @@
 
             <tr>
                 <td colspan="2">
-                    <b>ผลไม้ที่ไม่ชื่นชอบ</b><br>
+                    <br><b>ผลไม้ที่ไม่ชื่นชอบ</b><br>
                     <label><input type="checkbox" name="fruit[]"> มะม่วง</label>
                     <label><input type="checkbox" name="fruit[]"> น้อยหน่า</label>
                     <label><input type="checkbox" name="fruit[]"> ทุเรียน</label><br>
@@ -131,7 +137,7 @@
 
             <tr>
                 <td colspan="2">
-                    <b>อาหารที่ชื่นชอบ</b><br>
+                    <br><b>อาหารที่ชื่นชอบ</b><br>
                     <label><input type="checkbox" name="food[]"> ต้มยำกุ้ง</label>
                     <label><input type="checkbox" name="food[]"> ไข่เจียวหมูสับ</label>
                     <label><input type="checkbox" name="food[]"> แกงขาหมู</label><br>
